@@ -4,7 +4,7 @@ a {
     border-bottom:2px solid rgb(12, 11, 11);
     border-top:2px solid rgb(12, 11, 11);
 }
-.index {
+body {
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -32,4 +32,24 @@ a {
 }
 img {
     border: 5px solid white;
+}
+ul,
+ol {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.recipe {
+    text-align:center;
+}
+.card {
+    width:600px;
+}
+li {
+    padding:10px;
+    text-decoration:overline;
+}
+.title {
+    border-bottom:solid black 5px;
+    border-top:solid black 5px;
 }
