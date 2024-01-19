@@ -1,0 +1,19 @@
+a {
+    text-decoration:none;
+    color:black;
+}
+.index {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background-color:#d0f1e6;
+}
+.footer {
+    background-color:#c1f3e2;
+    width:100vh;
+    height:66px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
